@@ -43,7 +43,9 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-24 px-4">
+    <section id="features" className="relative py-24 px-4">
+      {/* Grid Background */}
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.01)_1px,transparent_1px)] bg-[size:40px_40px] opacity-50" />
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">

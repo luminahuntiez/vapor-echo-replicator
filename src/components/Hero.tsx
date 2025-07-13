@@ -4,6 +4,9 @@ import { Download } from "lucide-react";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
+      {/* Grid Background */}
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:50px_50px]" />
+      
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--gaming-primary)_0%,_transparent_50%)] opacity-20" />
       <div className="absolute inset-0 bg-[conic-gradient(from_0deg_at_50%_50%,_var(--gaming-secondary)_0deg,_transparent_60deg,_var(--gaming-accent)_120deg,_transparent_180deg)] opacity-10" />
